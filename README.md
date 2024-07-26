@@ -1,4 +1,4 @@
-# docker_t1
+# Docker Task 1
 Task: Creating a Multi-Container Application with Docker Compose
 
 Objective: Set up a simple web application with a frontend and a backend service, and use Docker Compose to manage both containers.

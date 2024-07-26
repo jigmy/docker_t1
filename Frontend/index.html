@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frontend</title>
+</head>
+<body>
+    <h1>Welcome to the Frontend!</h1>
+    <p id="api-response"></p>
+
+    <script>
+        fetch('http://backend:5000/api')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('api-response').textContent = data.message;
+            });
+    </script>
+</body>
+</html>
